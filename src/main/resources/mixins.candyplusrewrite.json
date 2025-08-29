@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.hypinohaizin.candyplusrewrite.mixin.mixins",
+  "refmap": "mixins.candyplusrewrite.refmap.json",
+  "mixins": [
+    "IMixinMapData",
+    "MixinEntity",
+    "MixinEntityLivingBase",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinLoginStart",
+    "MixinMinecraft",
+    "MixinNetHandlerPlayClient",
+    "MixinNetWork",
+    "MixinPlayerControllerMP",
+    "MixinRenderEnderCrystal",
+    "MixinRenderPlayer"
+  ]
+}
